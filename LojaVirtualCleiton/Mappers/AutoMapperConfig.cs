@@ -15,5 +15,10 @@ namespace LojaVirtualCleiton.Mappers
                x.AddProfile<ProdutoViewModelMappingProfile>();
            });
         }
+
+        internal static void RegisterMapping()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
