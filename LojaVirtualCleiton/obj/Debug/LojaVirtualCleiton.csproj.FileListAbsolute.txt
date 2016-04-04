@@ -268,3 +268,4 @@ C:\Users\biblioteca5\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirt
 C:\Users\biblioteca5\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\NHibernate.dll
 C:\Users\biblioteca5\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\Iesi.Collections.xml
 C:\Users\biblioteca5\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\NHibernate.xml
+C:\Users\biblioteca5\Documents\Visual Studio 2015\Projects\Loja-Virtual\LojaVirtualCleiton\bin\hibernate.cfg.xml

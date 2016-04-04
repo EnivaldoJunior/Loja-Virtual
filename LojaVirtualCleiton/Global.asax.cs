@@ -18,7 +18,7 @@ namespace LojaVirtualCleiton
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            AutoMapperConfig.RegisterMapping();
+            AutoMapperConfig.RegisterMappings();
         }
     }
 }
