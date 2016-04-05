@@ -10,13 +10,21 @@ namespace Modelo
     {
         public IList<Produto> Lista()
         {
-            using(var session = NHibernateHelper.OpenSession())
+            using (var session = NHibernateHelper.OpenSession())
             {
                 return session.QueryOver<Produto>()
                             .List();
             }
-        }
 
-           
+        } 
+
+             public virtual void Salvar(Produto produto)
+        {
+            using (var session = NHibernateHelper.OpenSession())
+            {
+                session.SaveOrUpdate(produto);
+                session.Flush();
+            }
+        }
     }
-}
+} 
