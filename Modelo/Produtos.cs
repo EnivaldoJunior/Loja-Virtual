@@ -25,6 +25,27 @@ namespace Modelo
                 session.SaveOrUpdate(produto);
                 session.Flush();
             }
+
+        }
+        public virtual Produto Por(Guid? id)
+        {
+            using (var session = NHibernateHelper.OpenSession())
+            {
+                return session.Get<Produto>(id);
+            }
+       
+ }
+
+        public virtual void Apagar(Guid id)
+        {
+            using (var session = NHibernateHelper.OpenSession())
+            {
+                var produto = session.Get<Produto>(id);
+
+                session.Delete(produto);
+
+                session.Flush();
+            }
         }
     }
 } 
