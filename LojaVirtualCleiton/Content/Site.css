@@ -1,4 +1,8 @@
 ﻿body {
+    background-color: #b6ff00;
+    border-top: solid 10px #000;
+    color:#000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -21,8 +25,13 @@ input,
 select,
 textarea {
     max-width: 280px;
-}
-table, td, tr{
-    border: 1px solid #ff0000;
     
 }
+table, td, tr{
+    border: 1px solid #000000;
+    background-color: #ffd800;
+    border-top: solid 10px #ff0000;
+    color:white;
+    font-family:'Comic Sans MS';
+}
+
